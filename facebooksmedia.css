@@ -1,0 +1,112 @@
+@media(max-width:1024px){
+    .login{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    .desk-wordings{
+        display: none;
+    }
+    .lang{
+        display: grid;
+        margin-bottom: 50px;
+        font-size: 10px;
+        color: gray;
+    }
+    .logoimage img{
+        display: grid;
+        margin-top:60px ;
+        margin-bottom: 80px;
+        width: 60px;
+        height: 60px;
+    }
+    .loginsection{
+        box-sizing: border-box;
+        max-width: 1024px;
+        width: 100%;
+        margin-left: 150px;
+        background: none;
+        box-shadow: none;
+        padding: 10px;
+        margin-top: 90px;
+        margin-bottom: 100px;
+    }
+    .loginform form{
+        box-sizing: border-box;
+    }
+    .loginform Input{
+        align-items: center;
+        border-radius: 10px;
+    }
+    .line{
+        display: none;
+    }
+    .create-account{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .account-button{
+        background: none;
+        border: 1px solid  #1877F2;
+        border-radius: 20px;
+        width: 100%;
+        color: #1877F2;
+        align-items: center ;
+        justify-content: center;
+        margin-top: 300px;
+    }
+   
+   .buttomwordingst{
+    display: grid;
+    padding-top: 30%;
+   }
+   .buttomwordings{
+    display: none;
+   }
+   .metalogo{
+    display: flex;
+   }
+  
+   .metalogo img{
+    width: 60px;
+    height: 60px;
+    padding-top: 30px;
+    padding-left: 20px;
+   }
+   .login-button{
+    border-radius: 20px;
+   }
+   
+   .metabottom{
+    word-spacing: 10px;
+    color: gray;
+    display: grid;
+    margin-left: 15px;
+    font-size: 10px;
+   }
+   
+
+}
+@media(max-width:660px){
+    .account-button{
+        margin-top: 80px;
+    }
+    .logoimage img{
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+    .loginsection{
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .buttomwordingst{
+        padding-top: 30%;
+    }
+    .metalogo img{
+        padding-top: 10px;
+    }
+    
+
+}

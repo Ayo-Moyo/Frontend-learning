@@ -1,0 +1,140 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f2f5;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    padding: 40px;
+}
+
+.lang {
+    display: none; 
+}
+
+.desk-wordings {
+    flex: 1;
+    padding: 60px;
+}
+
+.logo-wordings {
+    font-size: 48px;
+    color: #1877f2;
+    font-weight: bold;
+}
+
+.phrase {
+    font-size: 24px;
+    max-width: 500px;
+    color: #1c1e21;
+}
+
+.loginsection {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+    align-items: center;
+    padding: 60px 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    max-width: 270px;
+    max-height: 200px;
+}
+
+.logoimage img {
+    display: none;
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.loginform {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.loginform input {
+    padding: 14px;
+    font-size: 8px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+}
+
+.login-button {
+    background-color: #1877f2;
+    color: white;
+    font-size: 16px;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.forgottenpass {
+    text-align: center;
+    color: #1877f2;
+    font-size: 14px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.line {
+    border: 0.5px solid #dddfe2;
+    margin: 1px 0;
+}
+
+.create-account {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.account-button {
+    background-color: #42b72a;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.buttomwordings {
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.meta {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    display: none;
+}
+
+.meta img {
+    width: 100px;
+}
+
+.metabottom {
+    font-size: 12px;
+    margin-top: 5px;
+}
+.create{
+    color: #1c1e21;
+}
+.buttomwordingst{
+    display: none;
+}
+
